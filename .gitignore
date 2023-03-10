@@ -1,0 +1,8 @@
+# Dev Junk
+.DS_Store
+node_modules
+package-lock.json
+
+# Things that actually shouldn't be pushed out
+basedata/sitemap*
+data_sets/

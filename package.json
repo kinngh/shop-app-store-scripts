@@ -1,0 +1,27 @@
+{
+  "name": "shop-app-store-scripts",
+  "version": "0.0.1",
+  "main": "basedata/seeder.js",
+  "type": "module",
+  "author": {
+    "name": "Harshdeep Singh Hura",
+    "url": "https://harshdeephura.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinngh/shop-app-store-scripts.git"
+  },
+  "scripts": {
+    "------> Run this first <------": "",
+    "start": "node basedata/seeder.js; npm run pretty",
+    "------> Functions <------": "",
+    "search": "node functions/search.js; npm run pretty",
+    "------> Misc <------": "",
+    "pretty": "prettier --write ./",
+    "update": "ncu -u"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.7.12",
+    "prettier": "^2.8.4"
+  }
+}
